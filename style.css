@@ -1,4 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     
       font-family: 'Work Sans';
+}
+/* nav section */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    padding: 30px 10px;
+
+}
+.logo{
+    display: flex;
+    gap: 15px;
+}
+.image{
+    width: 60px;
+    height: 45px;
+    
+
+}
+.logo img{}
+.logo h2{
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+span{
+    color: #ff42a5;
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+li .btn{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.btn{
+    padding: 10px 20px;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    border: none;
+}
+.btn i{
+    color: rgba(211, 2, 2, 0.984);
+}
+
+
+
+
+
+
+/* Responsive divice */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+    
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    
 }
