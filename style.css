@@ -37,7 +37,7 @@ span{
 }
 nav ul{
     display: flex;
-    gap: 15px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -66,6 +66,69 @@ li .btn{
 }
 .btn i{
     color: rgba(211, 2, 2, 0.984);
+    margin-left: 5px;
+}
+
+/* banner-section */
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-text{
+
+ 
+}
+.banner-text h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.banner-text h1{
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+.banner-text ul{
+    list-style: none;
+    margin-bottom: 40px;
+    
+
+}
+.banner-text ul li{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.banner-text li i{
+    color: #ff42a5;
+}
+.btn-primary{
+    color: #FFF;
+    font-size: 1.15rem;
+    font-weight: 500;
+    background: #ff42a5;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 48px;
+}
+.ex{
+    background: #4EC5F7;
+}
+.banner-img{
+    
+}
+.photo{
+    width: 100%;
 }
 
 
@@ -86,8 +149,18 @@ li .btn{
     .btn{
         margin-top: 20px;
     }
+    .banner-section{
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 0 20px;
+    }
     
 }
 @media screen and (min-width:576px) and (max-width:992px) {
+    .banner-section{
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 0 20px;
+    }
     
 }
