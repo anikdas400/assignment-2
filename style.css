@@ -13,6 +13,7 @@ nav{
     align-items: center;
     background: #fff;
     padding: 30px 10px;
+    
 
 }
 .logo{
@@ -25,7 +26,9 @@ nav{
     
 
 }
-.logo img{}
+.banner-img{
+    background: #fff;
+}
 .logo h2{
     text-align: center;
     font-size: 2.7rem;
@@ -75,16 +78,13 @@ li .btn{
     justify-content: space-around;
     align-items: center;
 }
-.banner-text{
 
- 
-}
 .banner-text h2{
     color: #0B0223;
     text-align: center;
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .banner-text h1{
     text-align: center;
@@ -124,11 +124,52 @@ li .btn{
 .ex{
     background: #4EC5F7;
 }
-.banner-img{
-    
-}
+
 .photo{
     width: 100%;
+}
+/* gamer-section */
+.gamer-section{
+    display: flex;
+    padding: 20px 100px;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    
+    
+}
+.gamer-img{
+    width: 50%;
+}
+.gamer-text{
+    text-align: right;
+    width: 50%;
+}
+.gamer-text h2{
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+}
+.gamer-text p{
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.gamer-text h4{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.gamer-text h3{
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 
@@ -154,6 +195,17 @@ li .btn{
         gap: 20px;
         padding: 0 20px;
     }
+    .gamer-section{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .gamer-text{
+        width: 100%;
+    }
+    .gamer-img{
+        width: 100%;
+    }
+
     
 }
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -161,6 +213,16 @@ li .btn{
         flex-direction: column-reverse;
         gap: 20px;
         padding: 0 20px;
+    }
+    .gamer-section{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .gamer-text{
+        width: 100%;
+    }
+    .gamer-img{
+        width: 100%;
     }
     
 }
