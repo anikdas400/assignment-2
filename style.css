@@ -353,6 +353,36 @@ li .btn{
     margin-top: 20px;
     font-weight: 700;
 }
+/* games-item */
+.games-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 80px;
+    background: #FFF;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+.item h2{
+    border: 2px solid #F948B2;
+    border-radius: 48px;
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+.item h2:hover{
+    background: #F948B2;
+    color: #FFF;
+}
 
 
 
@@ -431,6 +461,12 @@ li .btn{
     }
     .ton{
         width: 100%;
+    }
+    .games-item{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 4px;
+        padding: 5px 10px;
     }
 
     
