@@ -171,6 +171,82 @@ li .btn{
     font-size: 2rem;
     font-weight: 700;
 }
+/* online-game-section */
+.online-game-section{
+    background: #fff;
+}
+.titles{
+    text-align: center;
+    margin-top: 70px;
+    padding: 20px 0;
+}
+.titles h2{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.titles p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+.col{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-game{
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 10px;
+}
+
+
+.online-box p{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.online-box{
+    position: relative;
+}
+.ho h2{
+    margin-bottom: 120px;
+}
+.ho i{
+    color: #df2f07;
+    font-size: 2rem;
+    margin-top: 180px;
+}
+.ho{
+    position: absolute;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 0;
+    left: 0;
+    bottom: 0;
+   text-align: center;
+   height: 85%;
+   width: 100%;
+   color: rgb(255, 255, 255);
+   background-color: #020d26ab;
+   border: 2px solid rgb(238, 61, 7);
+   
+   visibility: hidden;
+   transition: all linear 0.6s;
+   opacity: 0;
+}
+.online-box:hover .ho{
+    visibility: visible;
+    opacity: 1;
+}
+
+
 
 
 
@@ -205,6 +281,9 @@ li .btn{
     .gamer-img{
         width: 100%;
     }
+    .online-game{
+        flex-wrap: wrap;
+    }
 
     
 }
@@ -223,6 +302,9 @@ li .btn{
     }
     .gamer-img{
         width: 100%;
+    }
+    .online-game{
+        flex-wrap: wrap;
     }
     
 }
