@@ -287,6 +287,73 @@ li .btn{
     bottom: -70px;
     left: -120px;
 }
+/* careers-section */
+
+.careers-section{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+   
+}
+.career-text{
+    width: 50%;
+    padding: 10px 20px;
+    
+}
+.career-text h2{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.career-text p{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-1{}
+.list-1 ul{
+    list-style: none;
+}
+.list-1 ul li{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.list-2{}
+.list-2 ul{
+    list-style: none;
+}
+.list-2 ul li{
+    text-decoration: none;
+    color: #FFF;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.career-img{
+    width: 50%;
+}
+.ton{
+    width: 650px;
+    height: 650px;
+}
+.bo{
+    background: #fff;
+    color: #FF42A5;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
 
 
 
@@ -355,6 +422,16 @@ li .btn{
     .play-text h2{
         text-align: center;
     }
+    .careers-section{
+        flex-direction: column;
+        padding: 5px 0px;
+    }
+    .career-img{
+        width: 100%;
+    }
+    .ton{
+        width: 100%;
+    }
 
     
 }
@@ -401,5 +478,15 @@ li .btn{
     .ob{
         width: 70%;
     
+}
+.careers-section{
+    flex-direction: column;
+    padding: 10px 10px;
+}
+.career-img{
+    width: 100%;
+}
+.ton{
+    width: 100%;
 }
 }
